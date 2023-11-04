@@ -1,0 +1,11 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.autoComplete.extraPaths": ["./.docker/.dockerenv/lib/python3.9/site-packages"],
+  "python.linting.pylintArgs": ["--extension-pkg-whitelist=fastapi"],
+  "python.formatting.provider": "none",
+  "python.analysis.extraPaths": [
+    "./.docker/.dockerenv/lib/python3.9/site-packages"
+  ]
+}
